@@ -170,12 +170,71 @@ header{
     justify-content: flex-start;
     gap: 50px;
     padding: 0px 40px;
+    margin-bottom: 50px;
 }
 
 .midtext button{
     padding: 15px 27px;
     border-radius: 20px;
     border: 1px solid transparent;
-    background:     
-        linear-gradient(to right, hotpink, rgb(147, 22, 147),#2ccd97) border-box;;
+   background: #78acff;
+background: radial-gradient(circle, rgba(120, 172, 255, 1) 10%, rgba(96, 239, 255, 1) 70%);
+
 }
+
+/* -----------------------------------------Card_Section---------------------------- */
+
+.MenuSection{
+     width: 95%;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0px 40px;
+}
+
+.MenuSection select{
+    width: 150px;
+    padding: 14px 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 18px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+.MenuSection button{
+      width: 110px;
+    padding: 14px 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 18px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+.middlePart{
+    display: flex;
+    align-items: center;
+     font-weight: 500;
+    gap: 15px;
+}
+
+.middlePart h3{
+     font-weight: 500;
+      padding: 14px 15px;
+       border: 1px solid #e5e5e5;
+       border-radius: 20px;
+        background-color: #F3F3F6;
+}
+.middlePart h3:hover{
+    background-color: transparent;
+}
+
+/* ---------------------------Cards---------------------------------------- */
